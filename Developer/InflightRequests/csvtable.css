@@ -1,0 +1,65 @@
+
+
+/* CSV Table Classes */
+#CSVTable {
+	font: 0.8em Verdana,Arial,Geneva,Helvetica,sans-serif;
+	border-collapse: collapse;
+}
+
+
+/* Header */
+#CSVTable thead tr {
+	background: #A0B7DA;
+
+}
+#CSVTable th {
+	font-family: "Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+	font-size: 1.2em;
+}
+
+/* Table Cells */
+#CSVTable td, #CSVTable th {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #FFFFFF;
+	border-top: 1px solid transparent;
+}
+/* Default background color for rows */
+#CSVTable tr {
+	background: #F0F0F0;
+}
+/* Background color for odd rows */
+#CSVTable tr.odd {
+	background: #F9F9F9;
+}
+/* Hover color for all rows */
+#CSVTable tr:hover {
+	background: red;
+}
+
+
+
+
+
+
+
+
+
+
+#banner {
+	margin-top:-50px;
+	height:150px;
+	width:100%;
+	z-index:-1;
+	background-color:#262626;
+}
+
+
+#banner p {
+	text-align:center;
+	vertical-align:middle;
+	line-height:135px;
+	color:white;
+	font-size:50px;
+	font-family:Tahoma;
+}
